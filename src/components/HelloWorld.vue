@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <video ref="myVideo" id="myVideo" width="400px" autoplay playsinline></video>
+    <video ref="myVideo" id="myVideo" width="400px" autoplay muted playsinline></video>
     <video ref="theirVideo" id="theirVideo" width="400px" autoplay playsinline></video>
     <div>
       あなたのID：<input typp="text" id="myId" v-model="myId" readonly />
